@@ -56,5 +56,6 @@ def mailParticipant():
         nickname = ""
     replacedict = {"NICKNAME": nickname, "OPERATOR": operator}
     ES.send_email(email, replacedict)
+    return "succes"
 
 
